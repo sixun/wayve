@@ -37,6 +37,19 @@ React 19, TypeScript, Vite, Motion. 배포 출력은 `dist/`입니다. Vercel/Ne
 
 구매 코드가 포함되어 있으므로 저장소는 비공개로 유지합니다. 배포 시 `dist/`만 제공하며 `originals/`는 공개 정적 디렉터리에 넣지 않습니다.
 
+## 컴포넌트 갤러리
+
+- `/components`: 원본 카탈로그 106개, 검색·카테고리·정렬·hover 영상 미리보기
+- `/v1/skiper<ID>`: 독립 iframe 시연, 사이드바 목록, 이전/다음, 재시작, 테마, 전체 화면
+- `/demo/skiper<ID>`: 103개 원본 기반 데모를 필요할 때 개별 로드
+- #12/#14/#36: 원본 소스 미확보로 명시적으로 준비 중 표시
+- `src/demos/`: `originals/`에서 복사한 실행본. import 경로·정적 에셋 URL·일부 export를 런타임에 맞게 조정. 원본 보관 파일은 수정하지 않음
+- #2 Dynamic Island의 외부 하위 파일 9개가 원본 단일 파일에 포함되지 않아 `src/demos/_components`에 로컬 보조 뷰 작성
+- #21 원본에 포함되지 않은 지갑 브랜드 SVG는 일반 지갑 아이콘으로 대체
+- 공용 UI는 shadcn/Radix, CSS는 Tailwind v4. 데모의 스타일과 스크롤은 iframe으로 격리
+- 소스 다운로드 UI는 제공하지 않음. 103개를 최초 페이지 로드에 모두 실행하지 않음
+- 데모 이미지·영상은 원본 URL을 사용하여 외부 서버 가용성에 의존
+
 ## 검증 상태
 
-`npm run build` (TypeScript 검사 + Vite 프로덕션 빌드) 통과. 현재 실행 환경의 브라우저 보안 정책이 로컬 HTTP 및 file URL을 허용하지 않아 완성 화면의 브라우저 상호작용/모바일 시각 검증은 미완료입니다. 픽셀 단위의 원본 일치를 보장하지 않습니다. 배포는 수행하지 않았습니다.
+`npm run build` 통과. `npm run check:demos`로 103개 import/export 및 서버 초기 렌더링 검사 통과. 대표 CDN/기존 정적 에셋 4개 HTTP 200 확인. 초기 렌더링 검사는 클릭·스크롤·캔버스 등 브라우저 동작 검증을 대체하지 않습니다. 관리형 미리보기의 브라우저 접근이 차단되어 모바일/시각/실제 인터랙션 QA는 미완료입니다. Sites 비공개 배포 주소: https://sixun-portfolio.clsrn6376.chatgpt.site
