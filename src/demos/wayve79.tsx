@@ -74,7 +74,7 @@ const TeamImage: React.FC<TeamImageProps> = ({ speaker }) => {
       }}
     >
       <img
-        src={`/wayve/media/cdn/images/oct25Coll/portraits/p_${speakers.indexOf(speaker) + 1}.webp`}
+        src={`/wayve/media/cdn/images/oct25Coll/portraits/p_${speakers.indexOf(speaker) + 1}.${speakers.indexOf(speaker) < 8 ? "webp" : "png"}`}
         alt={speaker.name}
         className="contrast-120 h-full w-full object-cover saturate-0 filter transition-all ease-in-out hover:scale-95"
       />

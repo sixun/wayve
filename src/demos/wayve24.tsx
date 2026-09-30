@@ -46,7 +46,7 @@ const TikTikColorList = ({
   const previewRef = useRef<HTMLImageElement>(null);
   const isLoadingRef = useRef(false);
   const itemRefs = useRef<(HTMLDivElement | null)[]>([]);
-  const [playTick] = useSound("/sfx/tick.wav", { volume: 0.5 });
+  const [playTick] = useSound("/wayve/media/tick.wav", { volume: 0.5 });
 
   // Generate initial archive list
   useEffect(() => {
