@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+﻿@import 'tailwindcss';
 @import 'tw-animate-css';
 @source './demos';
 @source './components/ui';
@@ -16,10 +16,13 @@
  --color-border:var(--muted4);--color-input:var(--muted4);--color-ring:#0078ff;
  --color-destructive:#e33;--radius-lg:12px;--radius-md:8px;--radius-sm:6px;
 }
-:root{--background:#fff;--foreground:#121212;--muted:#f5f4f3;--muted-foreground:#777;--muted2:#fcfcfc;--muted3:#f3f3f3;--muted4:#fff;--font-geist-sans:'Geist';--font-geist-mono:'Geist Mono';font-family:'Geist',Arial,sans-serif;background:var(--muted);color:var(--foreground)}
+:root{--background:#fff;--foreground:#121212;--muted:#f5f4f3;--muted-foreground:#777;--muted2:#fcfcfc;--muted3:#f3f3f3;--muted4:#fff;--font-geist-sans:'Geist';--font-geist-mono:'Geist Mono';font-family:'Inter',Arial,sans-serif;background:var(--muted);color:var(--foreground)}
 .dark{--background:#121212;--foreground:#ededed;--muted:#121212;--muted-foreground:#aaa;--muted2:#161616;--muted3:#232323;--muted4:#232323}
 html,body,#root{margin:0;min-height:100%;width:100%}#root{height:100vh}body{overflow-x:hidden}button{cursor:pointer}button:focus-visible,a:focus-visible{outline:2px solid #0078ff;outline-offset:3px}.demo-status{display:grid;place-content:center;height:100vh;text-align:center;gap:15px;padding:24px;font:14px Arial}.demo-status h1{font-size:22px}.demo-status button{padding:10px 20px;background:#eee;border-radius:10px}.font-geist{font-family:'Geist',Arial,sans-serif}.font-geist-mono{font-family:'Geist Mono',monospace}.font-old-school-grotesk{font-family:'Old School Grotesk',sans-serif}
 
 @font-face{font-family:Geist;src:url(/wayve/fonts/geist-latin.woff2) format("woff2");font-style:normal;font-weight:100 900;font-display:swap}
 @font-face{font-family:"Geist Mono";src:url(/wayve/fonts/geist-mono-latin.woff2) format("woff2");font-style:normal;font-weight:100 900;font-display:swap}
 @font-face{font-family:"Old School Grotesk";src:url(/wayve/fonts/old-school-grotesk.woff2) format("woff2");font-weight:800;font-display:swap}
+
+@font-face{font-family:Inter;src:url(/wayve/fonts/inter-latin.ttf) format("truetype");font-style:normal;font-weight:100 900;font-display:swap}
+
