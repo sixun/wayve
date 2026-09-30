@@ -18,9 +18,11 @@ import { Timer } from "./_components/timer";
 const DynamicIsland = ({
   view,
   variantKey,
+  setView,
 }: {
   view: string;
   variantKey: string;
+  setView: (view: string) => void;
 }) => {
   const content = useMemo(() => {
     switch (view) {
@@ -33,7 +35,7 @@ const DynamicIsland = ({
       case "music":
         return <Music />;
       case "airdrop":
-        return <Airdrop setView={undefined} />;
+        return <Airdrop setView={setView} />;
       case "airdropMini":
         return <AirdropMini />;
       case "lowBattery":
@@ -47,7 +49,7 @@ const DynamicIsland = ({
       case "idle":
         return <div className="h-7" />;
     }
-  }, [view]);
+  }, [view, setView]);
 
   return (
     <motion.div
@@ -164,8 +166,8 @@ const Wayve2 = () => {
   const [variantKey, setVariantKey] = useState("idle");
 
   return (
-    <div className="relative flex h-full w-full flex-col items-center justify-center">
-      <DynamicIsland view={view} variantKey={variantKey} />
+    <div className="relative flex h-full w-full flex-col items-center justify-center bg-[#f5f4f3] [--muted2:#fcfcfc] [--muted3:#f3f3f3] dark:bg-[#121212] dark:[--muted2:#161616] dark:[--muted3:#232323]">
+      <DynamicIsland view={view} variantKey={variantKey} setView={setView} />
       <Options view={view} setView={setView} setVariantKey={setVariantKey} />
     </div>
   );
