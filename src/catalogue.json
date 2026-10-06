@@ -1,1 +1,638 @@
-[{"id": 105, "name": "Auto Scale input"}, {"id": 106, "name": "Smooth caret input"}, {"id": 107, "name": "Knockout bracket"}, {"id": 1, "name": "Anime js scrollbar"}, {"id": 2, "name": "Dynamic island"}, {"id": 5, "name": "Things drag and scroll"}, {"id": 24, "name": "Tik tik color list"}, {"id": 29, "name": "Siena parallax"}, {"id": 73, "name": "Infinite canvas"}, {"id": 76, "name": "Apple Feature Block"}, {"id": 80, "name": "Projects Showcase"}, {"id": 96, "name": "Expandable tabs navigation"}, {"id": 101, "name": "Custom tooltip"}, {"id": 3, "name": "Apple play button"}, {"id": 4, "name": "Theme toggle buttons"}, {"id": 25, "name": "Music toggle btn"}, {"id": 26, "name": "Theme toggle btn"}, {"id": 27, "name": "Rolling text"}, {"id": 37, "name": "Animated number"}, {"id": 40, "name": "CssLink"}, {"id": 42, "name": "Animated icons 001"}, {"id": 58, "name": "Text roll navigation"}, {"id": 61, "name": "Mouse follow animations"}, {"id": 63, "name": "Apple squicircle effect"}, {"id": 64, "name": "Gooey Effect"}, {"id": 66, "name": "SVG clip path mask"}, {"id": 68, "name": "Animated number input"}, {"id": 69, "name": "Wayve Number flow"}, {"id": 70, "name": "Text reveal box"}, {"id": 72, "name": "Horizontal Text reveal "}, {"id": 86, "name": "Apple Ai gradient"}, {"id": 87, "name": "Scroll with fade effect"}, {"id": 99, "name": "Animated icons 002"}, {"id": 103, "name": "Bouncy accordion"}, {"id": 6, "name": "Hover members"}, {"id": 18, "name": "Image cursor trail"}, {"id": 35, "name": "Hover expand"}, {"id": 52, "name": "ExpandOnHover"}, {"id": 53, "name": "ExpandOnHover vertical"}, {"id": 59, "name": "Drawing cursor effect"}, {"id": 90, "name": "Gradient hover cards"}, {"id": 7, "name": "Nike preloader"}, {"id": 8, "name": "Words preloader"}, {"id": 9, "name": "Stairs preloader"}, {"id": 10, "name": "Double stairs preloader"}, {"id": 11, "name": "Pixel preloader"}, {"id": 15, "name": "Box loading preloader"}, {"id": 12, "name": "Vercel Liquid simulation"}, {"id": 14, "name": "Ascii Simulation"}, {"id": 36, "name": "Interactive3d Hero"}, {"id": 39, "name": "Canvas crowd"}, {"id": 13, "name": "Nike menu"}, {"id": 38, "name": "Apple Navbar V001"}, {"id": 57, "name": "Vercel navigation bar"}, {"id": 75, "name": "Apple Navbar V002"}, {"id": 16, "name": "Card stack scroll"}, {"id": 17, "name": "Card stack with gsap and rotate"}, {"id": 19, "name": "Svg follow scroll"}, {"id": 28, "name": "3D perspective text"}, {"id": 30, "name": "Oliver parallax"}, {"id": 31, "name": "Text Scroll animation"}, {"id": 32, "name": "Scroll images reveal 001"}, {"id": 33, "name": "Scroll images reveal 002"}, {"id": 34, "name": "Scroll images reveal 003"}, {"id": 55, "name": "Parallax Image"}, {"id": 60, "name": "Side Scroll Navigation"}, {"id": 71, "name": "Image reveal"}, {"id": 74, "name": "Timeline calendar"}, {"id": 79, "name": "Team showcase scroll"}, {"id": 88, "name": "3D Rolling Text on scroll"}, {"id": 89, "name": "Scroll progress 001"}, {"id": 94, "name": "Scroll progress 002"}, {"id": 95, "name": "Scroll progress 003"}, {"id": 104, "name": "Scroll reveal grid cards"}, {"id": 20, "name": "UniSwap Country Dialog"}, {"id": 21, "name": "Family wallet"}, {"id": 22, "name": "Aave token swap"}, {"id": 23, "name": "Minimal Card Expand"}, {"id": 45, "name": "Family Receive button"}, {"id": 41, "name": "Progressive Blur"}, {"id": 44, "name": "Vercel scroll with blur"}, {"id": 56, "name": "Devouring details sign in"}, {"id": 43, "name": "Vercel Tooltip"}, {"id": 46, "name": "Nextjs gooey menu"}, {"id": 92, "name": "Vercel Command Search"}, {"id": 98, "name": "Vertical tooltip menu"}, {"id": 100, "name": "Draggable snap button"}, {"id": 47, "name": "Perspective carousel"}, {"id": 48, "name": "Card swipe carousel"}, {"id": 49, "name": "Inverted perspective carousel"}, {"id": 50, "name": "Creative carousel 001"}, {"id": 51, "name": "Creative carousel 002"}, {"id": 54, "name": "Shadcn clipPath Carousal"}, {"id": 77, "name": "Apple carousel"}, {"id": 78, "name": "Dia Browser's Carousal"}, {"id": 62, "name": "Loop animation hook"}, {"id": 65, "name": "Breakpoint indicator"}, {"id": 102, "name": "Debug Pannel"}, {"id": 67, "name": "Video player 001"}, {"id": 91, "name": "video player 002 "}, {"id": 97, "name": "video player 003"}, {"id": 81, "name": "AI Input 001"}, {"id": 82, "name": "AI Input 002"}, {"id": 83, "name": "AI Input 003"}, {"id": 84, "name": "AI Input 004"}, {"id": 85, "name": "AI Input 005"}]
+[
+  {
+    "id": 105,
+    "name": "Auto Scale input",
+    "category": "새 컴포넌트",
+    "available": true
+  },
+  {
+    "id": 106,
+    "name": "Smooth caret input",
+    "category": "새 컴포넌트",
+    "available": true
+  },
+  {
+    "id": 107,
+    "name": "Knockout bracket",
+    "category": "새 컴포넌트",
+    "available": true
+  },
+  {
+    "id": 1,
+    "name": "Anime js scrollbar",
+    "category": "카드·레이아웃",
+    "available": true
+  },
+  {
+    "id": 2,
+    "name": "Dynamic island",
+    "category": "카드·레이아웃",
+    "available": true
+  },
+  {
+    "id": 5,
+    "name": "Things drag and scroll",
+    "category": "카드·레이아웃",
+    "available": true
+  },
+  {
+    "id": 24,
+    "name": "Tik tik color list",
+    "category": "카드·레이아웃",
+    "available": true
+  },
+  {
+    "id": 29,
+    "name": "Siena parallax",
+    "category": "카드·레이아웃",
+    "available": true
+  },
+  {
+    "id": 73,
+    "name": "Infinite canvas",
+    "category": "카드·레이아웃",
+    "available": true
+  },
+  {
+    "id": 76,
+    "name": "Apple Feature Block",
+    "category": "카드·레이아웃",
+    "available": true
+  },
+  {
+    "id": 80,
+    "name": "Projects Showcase",
+    "category": "카드·레이아웃",
+    "available": true
+  },
+  {
+    "id": 96,
+    "name": "Expandable tabs navigation",
+    "category": "카드·레이아웃",
+    "available": true
+  },
+  {
+    "id": 101,
+    "name": "Custom tooltip",
+    "category": "카드·레이아웃",
+    "available": true
+  },
+  {
+    "id": 3,
+    "name": "Apple play button",
+    "category": "버튼·작은 동작",
+    "available": true
+  },
+  {
+    "id": 4,
+    "name": "Theme toggle buttons",
+    "category": "버튼·작은 동작",
+    "available": true
+  },
+  {
+    "id": 25,
+    "name": "Music toggle btn",
+    "category": "버튼·작은 동작",
+    "available": true
+  },
+  {
+    "id": 26,
+    "name": "Theme toggle btn",
+    "category": "버튼·작은 동작",
+    "available": true
+  },
+  {
+    "id": 27,
+    "name": "Rolling text",
+    "category": "버튼·작은 동작",
+    "available": true
+  },
+  {
+    "id": 37,
+    "name": "Animated number",
+    "category": "버튼·작은 동작",
+    "available": true
+  },
+  {
+    "id": 40,
+    "name": "CssLink",
+    "category": "버튼·작은 동작",
+    "available": true
+  },
+  {
+    "id": 42,
+    "name": "Animated icons 001",
+    "category": "버튼·작은 동작",
+    "available": true
+  },
+  {
+    "id": 58,
+    "name": "Text roll navigation",
+    "category": "버튼·작은 동작",
+    "available": true
+  },
+  {
+    "id": 61,
+    "name": "Mouse follow animations",
+    "category": "버튼·작은 동작",
+    "available": true
+  },
+  {
+    "id": 63,
+    "name": "Apple squicircle effect",
+    "category": "버튼·작은 동작",
+    "available": true
+  },
+  {
+    "id": 64,
+    "name": "Gooey Effect",
+    "category": "버튼·작은 동작",
+    "available": true
+  },
+  {
+    "id": 66,
+    "name": "SVG clip path mask",
+    "category": "버튼·작은 동작",
+    "available": true
+  },
+  {
+    "id": 68,
+    "name": "Animated number input",
+    "category": "버튼·작은 동작",
+    "available": true
+  },
+  {
+    "id": 69,
+    "name": "Wayve Number flow",
+    "category": "버튼·작은 동작",
+    "available": true
+  },
+  {
+    "id": 70,
+    "name": "Text reveal box",
+    "category": "버튼·작은 동작",
+    "available": true
+  },
+  {
+    "id": 72,
+    "name": "Horizontal Text reveal",
+    "category": "버튼·작은 동작",
+    "available": true
+  },
+  {
+    "id": 86,
+    "name": "Apple Ai gradient",
+    "category": "버튼·작은 동작",
+    "available": true
+  },
+  {
+    "id": 87,
+    "name": "Scroll with fade effect",
+    "category": "버튼·작은 동작",
+    "available": true
+  },
+  {
+    "id": 99,
+    "name": "Animated icons 002",
+    "category": "버튼·작은 동작",
+    "available": true
+  },
+  {
+    "id": 103,
+    "name": "Bouncy accordion",
+    "category": "버튼·작은 동작",
+    "available": true
+  },
+  {
+    "id": 6,
+    "name": "Hover members",
+    "category": "호버 효과",
+    "available": true
+  },
+  {
+    "id": 18,
+    "name": "Image cursor trail",
+    "category": "호버 효과",
+    "available": true
+  },
+  {
+    "id": 35,
+    "name": "Hover expand",
+    "category": "호버 효과",
+    "available": true
+  },
+  {
+    "id": 52,
+    "name": "ExpandOnHover",
+    "category": "호버 효과",
+    "available": true
+  },
+  {
+    "id": 53,
+    "name": "ExpandOnHover vertical",
+    "category": "호버 효과",
+    "available": true
+  },
+  {
+    "id": 59,
+    "name": "Drawing cursor effect",
+    "category": "호버 효과",
+    "available": true
+  },
+  {
+    "id": 90,
+    "name": "Gradient hover cards",
+    "category": "호버 효과",
+    "available": true
+  },
+  {
+    "id": 7,
+    "name": "Nike preloader",
+    "category": "로딩",
+    "available": true
+  },
+  {
+    "id": 8,
+    "name": "Words preloader",
+    "category": "로딩",
+    "available": true
+  },
+  {
+    "id": 9,
+    "name": "Stairs preloader",
+    "category": "로딩",
+    "available": true
+  },
+  {
+    "id": 10,
+    "name": "Double stairs preloader",
+    "category": "로딩",
+    "available": true
+  },
+  {
+    "id": 11,
+    "name": "Pixel preloader",
+    "category": "로딩",
+    "available": true
+  },
+  {
+    "id": 15,
+    "name": "Box loading preloader",
+    "category": "로딩",
+    "available": true
+  },
+  {
+    "id": 12,
+    "name": "Vercel Liquid simulation",
+    "category": "히어로",
+    "available": true
+  },
+  {
+    "id": 14,
+    "name": "Ascii Simulation",
+    "category": "히어로",
+    "available": true
+  },
+  {
+    "id": 36,
+    "name": "Interactive3d Hero",
+    "category": "히어로",
+    "available": true
+  },
+  {
+    "id": 39,
+    "name": "Canvas crowd",
+    "category": "히어로",
+    "available": true
+  },
+  {
+    "id": 13,
+    "name": "Nike menu",
+    "category": "내비게이션",
+    "available": true
+  },
+  {
+    "id": 38,
+    "name": "Apple Navbar V001",
+    "category": "내비게이션",
+    "available": true
+  },
+  {
+    "id": 57,
+    "name": "Vercel navigation bar",
+    "category": "내비게이션",
+    "available": true
+  },
+  {
+    "id": 75,
+    "name": "Apple Navbar V002",
+    "category": "내비게이션",
+    "available": true
+  },
+  {
+    "id": 16,
+    "name": "Card stack scroll",
+    "category": "스크롤 효과",
+    "available": true
+  },
+  {
+    "id": 17,
+    "name": "Card stack with gsap and rotate",
+    "category": "스크롤 효과",
+    "available": true
+  },
+  {
+    "id": 19,
+    "name": "Svg follow scroll",
+    "category": "스크롤 효과",
+    "available": true
+  },
+  {
+    "id": 28,
+    "name": "3D perspective text",
+    "category": "스크롤 효과",
+    "available": true
+  },
+  {
+    "id": 30,
+    "name": "Oliver parallax",
+    "category": "스크롤 효과",
+    "available": true
+  },
+  {
+    "id": 31,
+    "name": "Text Scroll animation",
+    "category": "스크롤 효과",
+    "available": true
+  },
+  {
+    "id": 32,
+    "name": "Scroll images reveal 001",
+    "category": "스크롤 효과",
+    "available": true
+  },
+  {
+    "id": 33,
+    "name": "Scroll images reveal 002",
+    "category": "스크롤 효과",
+    "available": true
+  },
+  {
+    "id": 34,
+    "name": "Scroll images reveal 003",
+    "category": "스크롤 효과",
+    "available": true
+  },
+  {
+    "id": 55,
+    "name": "Parallax Image",
+    "category": "스크롤 효과",
+    "available": true
+  },
+  {
+    "id": 60,
+    "name": "Side Scroll Navigation",
+    "category": "스크롤 효과",
+    "available": true
+  },
+  {
+    "id": 71,
+    "name": "Image reveal",
+    "category": "스크롤 효과",
+    "available": true
+  },
+  {
+    "id": 74,
+    "name": "Timeline calendar",
+    "category": "스크롤 효과",
+    "available": true
+  },
+  {
+    "id": 79,
+    "name": "Team showcase scroll",
+    "category": "스크롤 효과",
+    "available": true
+  },
+  {
+    "id": 88,
+    "name": "3D Rolling Text on scroll",
+    "category": "스크롤 효과",
+    "available": true
+  },
+  {
+    "id": 89,
+    "name": "Scroll progress 001",
+    "category": "스크롤 효과",
+    "available": true
+  },
+  {
+    "id": 94,
+    "name": "Scroll progress 002",
+    "category": "스크롤 효과",
+    "available": true
+  },
+  {
+    "id": 95,
+    "name": "Scroll progress 003",
+    "category": "스크롤 효과",
+    "available": true
+  },
+  {
+    "id": 104,
+    "name": "Scroll reveal grid cards",
+    "category": "스크롤 효과",
+    "available": true
+  },
+  {
+    "id": 20,
+    "name": "UniSwap Country Dialog",
+    "category": "선택·결제",
+    "available": true
+  },
+  {
+    "id": 21,
+    "name": "Family wallet",
+    "category": "선택·결제",
+    "available": true
+  },
+  {
+    "id": 22,
+    "name": "Aave token swap",
+    "category": "선택·결제",
+    "available": true
+  },
+  {
+    "id": 23,
+    "name": "Minimal Card Expand",
+    "category": "선택·결제",
+    "available": true
+  },
+  {
+    "id": 45,
+    "name": "Family Receive button",
+    "category": "선택·결제",
+    "available": true
+  },
+  {
+    "id": 41,
+    "name": "Progressive Blur",
+    "category": "블러·로그인",
+    "available": true
+  },
+  {
+    "id": 44,
+    "name": "Vercel scroll with blur",
+    "category": "블러·로그인",
+    "available": true
+  },
+  {
+    "id": 56,
+    "name": "Devouring details sign in",
+    "category": "블러·로그인",
+    "available": true
+  },
+  {
+    "id": 43,
+    "name": "Vercel Tooltip",
+    "category": "메뉴·툴팁",
+    "available": true
+  },
+  {
+    "id": 46,
+    "name": "Nextjs gooey menu",
+    "category": "메뉴·툴팁",
+    "available": true
+  },
+  {
+    "id": 92,
+    "name": "Vercel Command Search",
+    "category": "메뉴·툴팁",
+    "available": true
+  },
+  {
+    "id": 98,
+    "name": "Vertical tooltip menu",
+    "category": "메뉴·툴팁",
+    "available": true
+  },
+  {
+    "id": 100,
+    "name": "Draggable snap button",
+    "category": "메뉴·툴팁",
+    "available": true
+  },
+  {
+    "id": 47,
+    "name": "Perspective carousel",
+    "category": "캐러셀",
+    "available": true
+  },
+  {
+    "id": 48,
+    "name": "Card swipe carousel",
+    "category": "캐러셀",
+    "available": true
+  },
+  {
+    "id": 49,
+    "name": "Inverted perspective carousel",
+    "category": "캐러셀",
+    "available": true
+  },
+  {
+    "id": 50,
+    "name": "Creative carousel 001",
+    "category": "캐러셀",
+    "available": true
+  },
+  {
+    "id": 51,
+    "name": "Creative carousel 002",
+    "category": "캐러셀",
+    "available": true
+  },
+  {
+    "id": 54,
+    "name": "Shadcn clipPath Carousal",
+    "category": "캐러셀",
+    "available": true
+  },
+  {
+    "id": 77,
+    "name": "Apple carousel",
+    "category": "캐러셀",
+    "available": true
+  },
+  {
+    "id": 78,
+    "name": "Dia Browser's Carousal",
+    "category": "캐러셀",
+    "available": true
+  },
+  {
+    "id": 62,
+    "name": "Loop animation hook",
+    "category": "개발 도구",
+    "available": true
+  },
+  {
+    "id": 65,
+    "name": "Breakpoint indicator",
+    "category": "개발 도구",
+    "available": true
+  },
+  {
+    "id": 102,
+    "name": "Debug Pannel",
+    "category": "개발 도구",
+    "available": true
+  },
+  {
+    "id": 67,
+    "name": "Video player 001",
+    "category": "동영상",
+    "available": true
+  },
+  {
+    "id": 91,
+    "name": "video player 002",
+    "category": "동영상",
+    "available": true
+  },
+  {
+    "id": 97,
+    "name": "video player 003",
+    "category": "동영상",
+    "available": true
+  },
+  {
+    "id": 81,
+    "name": "AI Input 001",
+    "category": "AI 입력창",
+    "available": true
+  },
+  {
+    "id": 82,
+    "name": "AI Input 002",
+    "category": "AI 입력창",
+    "available": true
+  },
+  {
+    "id": 83,
+    "name": "AI Input 003",
+    "category": "AI 입력창",
+    "available": true
+  },
+  {
+    "id": 84,
+    "name": "AI Input 004",
+    "category": "AI 입력창",
+    "available": true
+  },
+  {
+    "id": 85,
+    "name": "AI Input 005",
+    "category": "AI 입력창",
+    "available": true
+  }
+]
