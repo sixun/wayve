@@ -13,11 +13,11 @@ const work=[
 ];
 const legacy=[
 {name:'광개토태왕',en:'KING GWANGGAETO',desc:'6장수 시스템 · 유닛 결집 시스템(정렬화) 구현',url:'https://www.yna.co.kr/view/AKR20150708104700017',image:'https://genk.mediacdn.vn/k%3A2015/7-1436771423790/king-gwanggaeto-game-chien-thuat-dinh-cao-xu-so-kim-chi.jpg'},
-{name:'영웅의 군단',en:'LEGION OF HEROES',desc:'QA 테스팅 · 영입 및 턴 전환 액션 UI 개선',url:'https://www.yna.co.kr/view/AKR20141024087700017',image:''},
-{name:'비둘기 지갑',en:'PIGEON WALLET',desc:'DeFi · 거래소 백엔드 개발',url:'',image:''},
-{name:'아마시아',en:'AMASIA',desc:'오늘톡 런칭 · OTA 배포 파이프라인 및 클라우드 비용 최적화',url:'',image:''},
-{name:'C2E Wallet',en:'C2E / REWARDY WALLET',desc:'CTO · C2E Token / Wallet / Marketplace 개발 총괄 · IR Deck 피칭 · VC 투자 유치 · 중앙화 거래소 상장',url:'https://www.rewardywallet.com/ko',image:''},
-{name:'까불지마 몬스터 for Kakao',en:'MONSTER FOR KAKAO',desc:'캐릭터 전투 시스템 · 캐릭터 디자인 및 3D 모델링 구현',url:'',image:''}
+{name:'영웅의 군단',en:'LEGION OF HEROES',desc:'QA 테스팅 · 영입 및 턴 전환 액션 UI 개선',url:'https://www.yna.co.kr/view/AKR20141024087700017',image:'https://img.utdstc.com/screen/d74/2e6/d742e62419dc93453d79af08d122871a69981dbbdf7ca7d98d1451a52de55ad4%3A600'},
+{name:'비둘기 지갑',en:'DOVE WALLET',desc:'DeFi · 거래소 백엔드 개발',url:'',image:'https://img.etnews.com/photonews/2010/1342528_20201004120251_280_0001.jpg'},
+{name:'아마시아',en:'AMASIA',desc:'오늘톡 런칭 · OTA 배포 파이프라인 및 클라우드 비용 최적화',url:'',image:'https://images.sftcdn.net/images/t_app-cover-l%2Cf_auto/p/b2eede89-34fb-417e-a199-7e53314dfc13/3543730524/amasia-love-is-borderless-screenshot.png'},
+{name:'C2E Wallet',en:'C2E / REWARDY WALLET',desc:'CTO · C2E Token / Wallet / Marketplace 개발 총괄 · IR Deck 피칭 · VC 투자 유치 · 중앙화 거래소 상장',url:'https://www.rewardywallet.com/ko',image:'https://miro.medium.com/v2/resize%3Afit%3A1400/1%2AW4pVbOBDDRhxHRoJPg1idQ.png'},
+{name:'까불지마 몬스터 for Kakao',en:'MONSTER FOR KAKAO',desc:'캐릭터 전투 시스템 · 캐릭터 디자인 및 3D 모델링 구현',url:'',image:'https://img.appstory.co.kr/%40files/monthly.appstory.co.kr/thum/Bdatafile/BoardAdd/dir_8/822_3.png'}
 ];
 export default function Portfolio(){
  const reduce=useReducedMotion();
