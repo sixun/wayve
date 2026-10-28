@@ -6,7 +6,7 @@ import './portfolio.css';
 const work=[
 {name:'푸망',en:'POOMANG',desc:'심리테스트 · 콘텐츠 플랫폼',metric:'MAU 370만',note:'기존 이력서 기준',url:'https://poomang.com',image:'https://thumb.mt.co.kr/cdn-cgi/image/f%3Davif/21/2021/06/2021060911384149681_2.jpg'},
 {name:'하트버스',en:'HEARTBUS',desc:'소셜 · 모바일 앱',metric:'활성 구독 1,232명',note:'2026.10 운영 DB 기준',url:'https://heartbus.lovable.app',image:'https://image.thum.io/get/width/1200/crop/850/noanimate/https://heartbus.lovable.app'},
-{name:'푸슝',en:'PUSHOONG',desc:'익명 질문 플랫폼',metric:'공개 ASK 조회수 5.0K',note:'개별 콘텐츠 · 2026.10 확인 / MAU 비공개',url:'https://pushoong.com/ko',image:'https://image.thum.io/get/width/1200/crop/850/noanimate/https://pushoong.com/ko'},
+{name:'푸슝',en:'PUSHOONG',desc:'익명 질문 플랫폼',metric:'MAU 177만 · DAU 약 16만',note:'푸슝 ASK 광고 소개 자료 · 집계 시점 미표기',url:'https://pushoong.com/ko',image:'https://image.thum.io/get/width/1200/crop/850/noanimate/https://pushoong.com/ko'},
 {name:'RisuAI',en:'RISUAI',desc:'AI 캐릭터 채팅 · 오픈소스',metric:'GitHub Stars 1.8K+',note:'공개 저장소 기준',url:'https://risuai.net',image:'https://cdn.louhu.com/5iujaw01000dbip875yyl1rlvn4wjw69.jpeg'},
 {name:'방꾸',en:'BANGGGU',desc:'AI 인테리어',metric:'월 구독 사용자 30명',note:'직접 제공 수치',url:'https://bangggu.lovable.app',image:'https://image.thum.io/get/width/1200/crop/850/noanimate/https://bangggu.lovable.app',video:'/wayve/media/bangggu-demo.mp4'},
 {name:'젬알',en:'ZEMR',desc:'실시간 채팅 · 커뮤니티',metric:'가입자 5,000명',note:'직접 제공 수치',url:'https://zemr.lovable.app',image:'https://image.thum.io/get/width/1200/crop/850/noanimate/https://zemr.lovable.app'}
