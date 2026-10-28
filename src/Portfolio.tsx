@@ -12,12 +12,12 @@ const work=[
 {name:'젬알',en:'ZEMR',desc:'실시간 채팅 · 커뮤니티',metric:'가입자 5,000명',note:'직접 제공 수치',url:'https://zemr.lovable.app',image:'https://image.thum.io/get/width/1200/crop/850/noanimate/https://zemr.lovable.app'}
 ];
 const legacy=[
-{name:'광개토태왕',en:'KING GWANGGAETO',desc:'모바일 실시간 전략 게임',url:'https://www.yna.co.kr/view/AKR20150708104700017',image:'https://genk.mediacdn.vn/k%3A2015/7-1436771423790/king-gwanggaeto-game-chien-thuat-dinh-cao-xu-so-kim-chi.jpg'},
-{name:'영웅의 군단',en:'LEGION OF HEROES',desc:'모바일 전략 RPG',url:'https://www.yna.co.kr/view/AKR20141024087700017',image:''},
-{name:'비둘기 지갑',en:'PIGEON WALLET',desc:'디지털 자산 지갑',url:'',image:''},
-{name:'아마시아',en:'AMASIA',desc:'모바일 소셜 플랫폼',url:'',image:''},
-{name:'C2E Wallet',en:'REWARDY WALLET',desc:'디지털 자산 · 리워드 지갑 / 현 리워디월렛',url:'https://www.rewardywallet.com/ko',image:''},
-{name:'까불지마 몬스터 for Kakao',en:'MONSTER FOR KAKAO',desc:'모바일 게임',url:'',image:''}
+{name:'광개토태왕',en:'KING GWANGGAETO',desc:'6장수 시스템 · 유닛 결집 시스템(정렬화) 구현',url:'https://www.yna.co.kr/view/AKR20150708104700017',image:'https://genk.mediacdn.vn/k%3A2015/7-1436771423790/king-gwanggaeto-game-chien-thuat-dinh-cao-xu-so-kim-chi.jpg'},
+{name:'영웅의 군단',en:'LEGION OF HEROES',desc:'QA 테스팅 · 영입 및 턴 전환 액션 UI 개선',url:'https://www.yna.co.kr/view/AKR20141024087700017',image:''},
+{name:'비둘기 지갑',en:'PIGEON WALLET',desc:'DeFi · 거래소 백엔드 개발',url:'',image:''},
+{name:'아마시아',en:'AMASIA',desc:'오늘톡 런칭 · OTA 배포 파이프라인 및 클라우드 비용 최적화',url:'',image:''},
+{name:'C2E Wallet',en:'C2E / REWARDY WALLET',desc:'CTO · C2E Token / Wallet / Marketplace 개발 총괄 · IR Deck 피칭 · VC 투자 유치 · 중앙화 거래소 상장',url:'https://www.rewardywallet.com/ko',image:''},
+{name:'까불지마 몬스터 for Kakao',en:'MONSTER FOR KAKAO',desc:'캐릭터 전투 시스템 · 캐릭터 디자인 및 3D 모델링 구현',url:'',image:''}
 ];
 export default function Portfolio(){
  const reduce=useReducedMotion();
